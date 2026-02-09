@@ -31,7 +31,7 @@ do
             --query 'Reservations[].Instances[].PrivateIpAddress' \
             --output text
         )
-        RECORD_NAME="$intance.$DOMAIN_NAME" # mongodb.devopsdaws.online
+        RECORD_NAME="$instance.$DOMAIN_NAME" # mongodb.devopsdaws.online
     fi
 
     echo "IP Address: $IP"
