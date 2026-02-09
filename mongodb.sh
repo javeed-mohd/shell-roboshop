@@ -41,7 +41,7 @@ systemctl start mongod
 VALIDATE $? "Starting MongoDB"
 
 sed -i "s/127.0.0.1/0.0.0.0/g" /etc/mongod.conf
-VALIDATE $? "Allowing Remote COnnections"
+VALIDATE $? "Allowing Remote Connections"
 
 systemctl restart mongod
-VALIDATE $? "Restarted MondoDB"
+VALIDATE $? "Restarted MongoDB"
