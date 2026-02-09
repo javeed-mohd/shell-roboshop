@@ -45,5 +45,3 @@ VALIDATE $? "Allowing Remote COnnections"
 
 systemctl restart mongod
 VALIDATE $? "Restarted MondoDB"
-
-
